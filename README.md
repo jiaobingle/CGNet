@@ -20,16 +20,16 @@ We train the proposed CGNet with only fine annotated data and submit our test re
 
   - Download the [Cityscapes](https://www.cityscapes-dataset.com/) dataset and convert the dataset to [19 categories](https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/helpers/labels.py). 
   
- 4.Training
+4. Training
   ```
     python train.py
   ```
- 5. Evaluation (on validation set)
+5. Evaluation (on validation set)
  
   ```
      python eval.py
   ```
- 6. testing (on test set)
+6. Testing (on test set)
   ```
     python test.py
   ```
