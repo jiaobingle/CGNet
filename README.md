@@ -27,7 +27,7 @@ We train the proposed CGNet with only fine annotated data and submit our test re
 5. Evaluation (on validation set)
  
   ```
-     python eval.py
+    python eval.py
   ```
 6. Testing (on test set)
   ```
